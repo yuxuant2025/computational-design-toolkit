@@ -17,10 +17,9 @@ different tool and language, grouped here for convenience.
 
 ## Index
 
-| Script | Description | Author |
-|--------|-------------|--------|
-| [stroke-to-fill](stroke-to-fill) | Move each path's stroke color onto its fill, clear the stroke, set opacity to 80%. | Yuxuan Tu |
-| [draw-handles](draw-handles) | Draw line segments from each anchor point to its Bézier handles, for selected paths. | Nihiltres (third-party) |
+| Script | Description |
+|--------|-------------|
+| [stroke-to-fill](stroke-to-fill) | Move each path's stroke color onto its fill, clear the stroke, set opacity to 80%. |
 
 ## Requirements
 

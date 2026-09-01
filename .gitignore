@@ -2,3 +2,6 @@
 
 # Staging area for scripts not yet organized / published
 Geometry/others/
+
+# Kept locally for reference, not authored by the repo owner
+_excluded/

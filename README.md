@@ -1,18 +1,19 @@
 # Computational Design Toolkit
 
-A curated collection of scripts by **Yuxuan Tu** for architecture and design
-work — Grasshopper / GhPython definitions for Rhino, plus a toolkit of
-automation scripts for Adobe Illustrator.
+A curated collection of scripts written by **Yuxuan Tu** for architecture and
+design work — Grasshopper / GhPython definitions for Rhino, plus a toolkit of
+automation scripts for Adobe Illustrator. Every entry here is original work;
+collected or third-party scripts are kept out of this repo.
 
 The collection is split into three parts:
 
 ### [`Geometry/`](Geometry) — project geometry systems
 
 Resolved, often complex geometry from real projects: a lofted lattice with a
-beam grid, circle-packed floors, dome panelization. Each entry is
-self-contained, with the source definition and a README documenting its intended
-use — plus, where available, extracted component code, a canvas snapshot, and
-project renders that used its output.
+beam grid, circle-packed floors. Each entry is self-contained, with the source
+definition and a README documenting its intended use — plus, where available,
+extracted component code, a canvas snapshot, and project renders that used its
+output.
 
 ### [`Modeling_Help/`](Modeling_Help) — reusable modeling aids
 
@@ -34,7 +35,6 @@ Illustrator. A different tool and language from the Grasshopper work.
 |--------|-------------|
 | [Lofting Lattice With Grid](Geometry/Lofting_Lattice_With_Grid) | Stacked lofted slabs cut from a surface, plus a 3D beam grid trimmed to a lofted solid. |
 | [Circle Packing](Geometry/Circle_Packing) | Dense packing of non-overlapping circles inside a boundary, used to generate a floor pattern. |
-| [Dome Panelization](Geometry/Dome_Panelization) | Panelizes a dome/spherical surface with circular panels placed on points distributed across it. |
 
 ### Modeling Help
 
@@ -49,10 +49,9 @@ Illustrator. A different tool and language from the Grasshopper work.
 
 ### Illustrator
 
-| Script | Description | Author |
-|--------|-------------|--------|
-| [stroke-to-fill](Illustrator/stroke-to-fill) | Move each path's stroke color onto its fill, clear the stroke, set opacity to 80%. | Yuxuan Tu |
-| [draw-handles](Illustrator/draw-handles) | Draw line segments from each anchor point to its Bézier handles, for selected paths. | Nihiltres (third-party) |
+| Script | Description |
+|--------|-------------|
+| [stroke-to-fill](Illustrator/stroke-to-fill) | Move each path's stroke color onto its fill, clear the stroke, set opacity to 80%. |
 
 ## Software
 
