@@ -49,7 +49,9 @@ Illustrator. A different tool and language from the Grasshopper work.
 
 ### Illustrator
 
-_Being organized; index to follow._
+| Script | Description |
+|--------|-------------|
+| [stroke-to-fill](Illustrator/stroke-to-fill) | Move each path's stroke color onto its fill, clear the stroke, set opacity to 80%. |
 
 ## Software
 
