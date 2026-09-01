@@ -7,6 +7,8 @@ is removed, and the object opacity is set to 80%.
 Handy after tracing / generative work that comes in as stroked outlines when you
 actually want filled shapes.
 
+![Before (stroked outlines) and after (filled shapes)](images/stroke_to_fill_before_after.png)
+
 ## File
 
 | File | What it does |
