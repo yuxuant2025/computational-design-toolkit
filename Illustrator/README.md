@@ -17,7 +17,9 @@ different tool and language, grouped here for convenience.
 
 ## Index
 
-_Scripts are being organized into folders; index to follow._
+| Script | Description |
+|--------|-------------|
+| [stroke-to-fill](stroke-to-fill) | Move each path's stroke color onto its fill, clear the stroke, set opacity to 80%. |
 
 ## Requirements
 
