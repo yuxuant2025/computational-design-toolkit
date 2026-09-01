@@ -2,7 +2,7 @@
 
 A Grasshopper study that generates a dense packing of non-overlapping circles
 inside a boundary region, with circle sizes adapting to fill the available
-space. Used to drive a perforated / aggregated surface pattern.
+space. Used to generate a floor pattern.
 
 ![Packed circle pattern](images/circle_packing_render_01.png)
 ![Packed circle pattern — alternate view](images/circle_packing_render_02.png)
@@ -25,7 +25,7 @@ The packing routine and its parameters live inside the definition — open the
 
 ## Renders
 
-Enscape renders from April 2020 using the packed output as a facade pattern.
+Enscape renders from April 2020 using the packed output as a floor pattern.
 
 ## Software
 
