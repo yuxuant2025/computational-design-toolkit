@@ -1,8 +1,12 @@
-# Scripts
+# Computational Design Toolkit
 
-A collection of my computational-design scripts — mostly Grasshopper / GhPython
-definitions for Rhino. Each script lives in its own folder with the source
-files, a canvas snapshot, and a README describing its inputs and outputs.
+A curated collection of computational-design scripts by **Yuxuan Tu** — mostly
+Grasshopper / GhPython definitions for Rhino, developed in the course of
+professional architecture and design work.
+
+Each entry is a self-contained script folder with the source definition,
+extracted component code, a canvas snapshot, project renders that used its
+output, and a README documenting its inputs, outputs, and intended use.
 
 ## Index
 
