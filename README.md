@@ -49,9 +49,10 @@ Illustrator. A different tool and language from the Grasshopper work.
 
 ### Illustrator
 
-| Script | Description |
-|--------|-------------|
-| [stroke-to-fill](Illustrator/stroke-to-fill) | Move each path's stroke color onto its fill, clear the stroke, set opacity to 80%. |
+| Script | Description | Author |
+|--------|-------------|--------|
+| [stroke-to-fill](Illustrator/stroke-to-fill) | Move each path's stroke color onto its fill, clear the stroke, set opacity to 80%. | Yuxuan Tu |
+| [draw-handles](Illustrator/draw-handles) | Draw line segments from each anchor point to its Bézier handles, for selected paths. | Nihiltres (third-party) |
 
 ## Software
 
