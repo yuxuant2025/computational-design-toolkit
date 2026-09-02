@@ -5,7 +5,7 @@ design work — Grasshopper / GhPython definitions for Rhino, plus a toolkit of
 automation scripts for Adobe Illustrator. Every entry here is original work;
 collected or third-party scripts are kept out of this repo.
 
-The collection is split into three parts:
+The collection is split into four parts:
 
 ### [`Geometry/`](Geometry) — project geometry systems
 
@@ -14,6 +14,12 @@ beam grid, circle-packed floors. Each entry is self-contained, with the source
 definition and a README documenting its intended use — plus, where available,
 extracted component code, a canvas snapshot, and project renders that used its
 output.
+
+### [`Analysis/`](Analysis) — performance & spatial analysis
+
+Definitions that take geometry as input and return numbers, maps, or diagrams —
+solar exposure, view analysis, slope — to feed a design decision rather than
+generate form.
 
 ### [`Modeling_Help/`](Modeling_Help) — reusable modeling aids
 
@@ -35,6 +41,10 @@ Illustrator. A different tool and language from the Grasshopper work.
 |--------|-------------|
 | [Lofting Lattice With Grid](Geometry/Lofting_Lattice_With_Grid) | Stacked lofted slabs cut from a surface, plus a 3D beam grid trimmed to a lofted solid. |
 | [Circle Packing](Geometry/Circle_Packing) | Dense packing of non-overlapping circles inside a boundary, used to generate a floor pattern. |
+
+### Analysis
+
+_Being built; index to follow._
 
 ### Modeling Help
 
