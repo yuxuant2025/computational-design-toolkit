@@ -9,18 +9,22 @@ or diagrams: how much sun a surface gets, what can be seen from a point, how
 steep a site is, and so on. Each result is meant to feed back into a design
 decision.
 
-## Planned tools
+## Index
+
+| Topic | What it does |
+|-------|--------------|
+| [slope](slope) | Evaluate grade across a terrain surface; flag buildable / unbuildable zones. |
+| [rainwater_flow](rainwater_flow) | Trace rainwater flow paths across a terrain surface. |
+| [rockfall](rockfall) | Kangaroo physics drop simulation for rockfall-hazard studies on steep sites. |
+
+## Planned
 
 | Tool | What it measures |
 |------|------------------|
 | solar exposure | Sun-hours / incident radiation across a surface over a date range. |
 | view analysis (isovist) | What is visible from a viewpoint — area, perimeter, openness. |
-| slope analysis | Grade across a terrain surface, with buildable / unbuildable zones. |
-
-_Scripts to be added; index to follow._
 
 ## Software
 
 - Rhino + Grasshopper (Rhino 7 or later)
-- Environmental tools may additionally require a solar / weather plugin
-  (e.g. Ladybug) — noted per script where used.
+- `rockfall` additionally requires the Kangaroo physics plugin.

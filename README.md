@@ -44,7 +44,11 @@ Illustrator. A different tool and language from the Grasshopper work.
 
 ### Analysis
 
-_Being built; index to follow._
+| Topic | Description |
+|-------|-------------|
+| [slope](Analysis/slope) | Evaluate grade across a terrain surface; flag buildable / unbuildable zones. |
+| [rainwater_flow](Analysis/rainwater_flow) | Trace rainwater flow paths across a terrain surface. |
+| [rockfall](Analysis/rockfall) | Kangaroo physics drop simulation for rockfall-hazard studies on steep sites. |
 
 ### Modeling Help
 
