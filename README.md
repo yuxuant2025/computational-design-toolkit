@@ -1,11 +1,12 @@
 # Computational Design Toolkit
 
 A curated collection of scripts written by **Yuxuan Tu** for architecture and
-design work — Grasshopper / GhPython definitions for Rhino, plus a toolkit of
-automation scripts for Adobe Illustrator. Every entry here is original work;
-collected or third-party scripts are kept out of this repo.
+design work — Grasshopper / GhPython definitions for Rhino, a Houdini terrain
+simulation, Rhino-to-Revit interop tools, and a toolkit of automation scripts
+for Adobe Illustrator. Every entry here is original work; collected or
+third-party scripts are kept out of this repo.
 
-The collection is split into four parts:
+The collection is split into five parts:
 
 ### [`Geometry/`](Geometry) — project geometry systems
 
@@ -18,8 +19,8 @@ output.
 ### [`Analysis/`](Analysis) — performance & spatial analysis
 
 Definitions that take geometry as input and return numbers, maps, or diagrams —
-solar exposure, view analysis, slope — to feed a design decision rather than
-generate form.
+slope, rainwater flow, erosion, rockfall — to feed a design decision rather than
+generate form. Mostly Grasshopper, with one Houdini scene.
 
 ### [`Modeling_Help/`](Modeling_Help) — reusable modeling aids
 
@@ -27,6 +28,12 @@ Small, single-purpose Grasshopper definitions for everyday modeling tasks —
 perforation, ramps, contours, fillets, tweens, diagrids. Project-agnostic, meant
 to be copied out and adapted. Kept loose: a short README per topic, no
 screenshots.
+
+### [`Rhino_to_Revit/`](Rhino_to_Revit) — Rhino ↔ Revit interoperability
+
+Tools that carry geometry and parametric data from a Rhino/Grasshopper model
+into a Revit/BIM workflow, rather than generating or evaluating geometry on
+their own.
 
 ### [`Illustrator/`](Illustrator) — Adobe Illustrator automation
 
@@ -49,6 +56,7 @@ Illustrator. A different tool and language from the Grasshopper work.
 | [slope](Analysis/slope) | Evaluate grade across a terrain surface; flag buildable / unbuildable zones. |
 | [rainwater_flow](Analysis/rainwater_flow) | Trace rainwater flow paths across a terrain surface. |
 | [rockfall](Analysis/rockfall) | Kangaroo physics drop simulation for rockfall-hazard studies on steep sites. |
+| [erosion](Analysis/erosion) | Houdini heightfield simulation of terrain erosion over time. |
 
 ### Modeling Help
 
@@ -61,6 +69,13 @@ Illustrator. A different tool and language from the Grasshopper work.
 | [diagrid](Modeling_Help/diagrid) | Diagonal structural grid over a roof surface. |
 | [fillet](Modeling_Help/fillet) | Offset a curve and round its corners. |
 
+### Rhino to Revit
+
+| Script | Description |
+|--------|-------------|
+| [block_to_family](Rhino_to_Revit/block_to_family) | Convert Rhino block instances into Revit family instances. |
+| [elefront_bake_attributes](Rhino_to_Revit/elefront_bake_attributes) | Bake geometry with attached attributes (via Elefront) for downstream BIM use. |
+
 ### Illustrator
 
 | Script | Description |
@@ -71,4 +86,6 @@ Illustrator. A different tool and language from the Grasshopper work.
 
 - Rhino + Grasshopper (Rhino 7 or later)
 - RhinoCommon / `Rhino.Geometry` (via GhPython)
+- SideFX Houdini (`Analysis/erosion` only)
+- Revit + Elefront plugin (`Rhino_to_Revit` only)
 - Adobe Illustrator (ExtendScript / `.jsx`)
